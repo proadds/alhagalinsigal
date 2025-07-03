@@ -4,25 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>על הגל עם סיגל - הפעלות ימי הולדת</title>
+    <meta name="description" content="על הגל עם סיגל - הפעלות קסומות לילדים, בועות סבון, מופעים, בלונים, מוזיקה והרבה שמחה באזור המרכז. צרו קשר עוד היום!">
+    <meta name="keywords" content="על הגל עם סיגל, הפעלות ימי הולדת, הפעלות לילדים, בועות סבון, מופעים לילדים, בלונים, אזור המרכז">
+    <meta name="author" content="סיגל מועלם">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sigal.netlify.app">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "על הגל עם סיגל",
+      "url": "https://sigal.netlify.app",
+      "sameAs": [
+        "https://www.facebook.com/p/על-הגל-עם-סיגל-100064403093360/",
+        "https://www.instagram.com/sigal_mualem"
+      ],
+      "description": "על הגל עם סיגל - הפעלות ימי הולדת קסומות באזור המרכז. בועות סבון, בלונים, מופעים, מוזיקה ואביזרים. חוויה שילדים לא שוכחים!",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+972547668161",
+        "contactType": "customer service"
+      }
+    }
+    </script>
 </head>
 <body>
     <!-- תפריט ניווט -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo">
-                <span>🎈 על הגל עם סיגל</span>
-            </div>
             <ul class="nav-menu">
                 <li><a href="#home">דף הבית</a></li>
                 <li><a href="#about">עליי</a></li>
                 <li><a href="#services">הפעלות</a></li>
+                <li><a href="#show">מופע קסום</a></li>
                 <li><a href="#gallery">גלריה</a></li>
                 <li><a href="#reviews">המלצות</a></li>
                 <li><a href="#contact">צור קשר</a></li>
             </ul>
+            <div class="nav-logo">
+                <img src="logo2.png" alt="לוגו על הגל עם סיגל" class="site-logo">
+            </div>
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -35,7 +61,7 @@
     <section id="home" class="hero">
         <div class="hero-container">
             <h1 class="hero-title">על הגל עם סיגל</h1>
-            <p class="hero-subtitle">הפעלות ימי הולדת שילדים לא שוכחים!</p>
+            <p class="hero-subtitle">הפעלות, מופעים וימי הולדת שילדים לא שוכחים!</p>
             <a href="https://wa.me/972547668161" class="whatsapp-btn" target="_blank">
                 <i class="fab fa-whatsapp"></i>
                 צור קשר בווטסאפ
@@ -55,14 +81,11 @@
             <h2 class="section-title">עליי</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>שלום! אני סיגל, מפעילה מקצועית ומנוסה של ימי הולדת לילדים. כבר למעלה מ-8 שנים אני מביאה שמחה וצחוק לילדים בכל הגילאים, ויוצרת חוויות בלתי נשכחות שילדים והורים זוכרים לטווח ארוך.</p>
-                    <p>האהבה שלי לילדים והניסיון הרב שצברתי מאפשרים לי ליצור הפעלות מותאמות אישית לכל ילד, תוך שמירה על בטיחות, יצירתיות והנאה מרבית. אני מאמינה שכל ילד ראוי למסיבת יום הולדת מיוחדת ומהנה!</p>
+                    <p>שלום! אני סיגל מועלם, מפעילה מקצועית ומנוסה של ימי הולדת לילדים. <strong>"על הגל עם סיגל"</strong> מביאה שמחה וצחוק לילדים בכל הגילאים באזור המרכז, ויוצרת חוויות בלתי נשכחות שילדים והורים זוכרים לטווח ארוך.</p>
+                    <p>האהבה שלי לילדים והניסיון הרב שצברתי מאפשרים לי ליצור הפעלות מותאמות אישית לכל ילד, תוך שמירה על בטיחות, יצירתיות והנאה מרבית. <strong>סיגל – מפעילה לילדים עם קסם</strong> שמאמינה שכל ילד ראוי למסיבת יום הולדת מיוחדת ומהנה!</p>
                 </div>
                 <div class="about-image">
-                    <div class="profile-placeholder">
-                        <i class="fas fa-user-circle"></i>
-                        <p>סיגל</p>
-                    </div>
+                    <img src="images/profile-centered.jpeg" alt="סיגל מועלם" class="about-profile-img" />
                 </div>
             </div>
         </div>
@@ -71,7 +94,7 @@
     <!-- הפעלות -->
     <section id="services" class="services">
         <div class="container">
-            <h2 class="section-title">הפעלות</h2>
+            <h2 class="section-title">הפעלות לימי הולדת באזור המרכז</h2>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">🎈</div>
@@ -81,12 +104,7 @@
                 <div class="service-card">
                     <div class="service-icon">🎁</div>
                     <h3>הפתעות לכל ילד</h3>
-                    <p>כל ילד מקבל הפתעה מיוחדת ומתנה קטנה</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🎨</div>
-                    <h3>סדנאות יצירה</h3>
-                    <p>יצירה מהנה עם חומרים איכותיים ובטוחים</p>
+                    <p>כל ילד מקבל הפתעה מיוחדת</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">🎶</div>
@@ -103,39 +121,81 @@
                     <h3>הפעלות מיוחדות</h3>
                     <p>הפעלות מותאמות אישית לכל גיל וטעם</p>
                 </div>
+                <!-- תוספות חדשות -->
+                <div class="service-card">
+                    <div class="service-icon">🎉</div>
+                    <h3>תפאורה מרשימה ובובת ענק</h3>
+                    <p>תפאורה צבעונית, בובת ענק ומערכת הגברה מקצועית</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👑</div>
+                    <h3>תלבושת מיוחדת לילד/ת יום ההולדת</h3>
+                    <p>הילד/ה במרכז החגיגה עם תלבושת ייחודית</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👩‍🎤</div>
+                    <h3>צוות של שתי מפעילות</h3>
+                    <p>שתי מפעילות שמגיעות עם המון מצב רוח וכיף</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>איפור פנים, קעקועי נצנצים ובלוני צורות</h3>
+                    <p>איפור, קעקועים, בלונים והפתעות לילדים</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🧺</div>
+                    <h3>מחצלות לישיבה נוחה</h3>
+                    <p>מחצלות צבעוניות לישיבה נוחה ובטוחה</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎵</div>
+                    <h3>אווירה קסומה</h3>
+                    <p>שירים, משחקים והמון כיף!</p>
+                </div>
             </div>
         </div>
+    </section>
+
+    <!-- מופע קסום לילדים -->
+    <section id="show" class="show">
+      <div class="container">
+        <h2 class="section-title">מופע קסום לילדים - על הגל עם סיגל</h2>
+        <p class="show-intro">מופע קסום לילדים – חוויה בלתי נשכחת לכל המשפחה!</p>
+        <ul class="show-features">
+          <li>🌟 מסע מלא הרפתקאות, צחוק ושמחה</li>
+          <li>🎭 סיפור עלילתי מרגש ומותח</li>
+          <li>✔️ משחקים אינטראקטיביים בשיתוף הקהל</li>
+          <li>🎵 שירים וריקודים קצביים</li>
+          <li>😂 המון רגעי צחוק ושמחה</li>
+        </ul>
+        <p class="show-for">👧🧒 מתאים לכל המשפחה, במיוחד לילדים בגיל הרך ועד גילאי בית ספר יסודי.</p>
+        <p class="show-cta">✨ חוויה שלא מפסיקים לדבר עליה!<br>
+        תנו לילדים שלכם להיות חלק מהסיפור, לשיר, לרקוד ולהרגיש שהם הכוכבים של המופע.<br>
+        <strong>אל תחמיצו את ההזדמנות לתת לילדים רגעים קסומים!</strong></p>
+        <a href="https://wa.me/972547668161" class="whatsapp-btn" target="_blank">
+          <i class="fab fa-whatsapp"></i>
+          לפרטים נוספים והזמנות
+        </a>
+      </div>
     </section>
 
     <!-- גלריה -->
     <section id="gallery" class="gallery">
         <div class="container">
-            <h2 class="section-title">גלריה</h2>
+            <h2 class="section-title">גלריה - על הגל עם סיגל</h2>
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <div class="gallery-placeholder">
-                        <i class="fas fa-image"></i>
-                        <p>מסיבת חד קרן</p>
-                    </div>
+                    <img src="images/WhatsApp Image 2025-07-01 at 14.14.13.jpeg" alt="גלריה - תמונה 1" />
                 </div>
                 <div class="gallery-item">
-                    <div class="gallery-placeholder">
-                        <i class="fas fa-image"></i>
-                        <p>סדנת יצירה</p>
-                    </div>
+                    <img src="images/WhatsApp Image 2025-07-01 at 14.12.18.jpeg" alt="גלריה - תמונה 2" />
                 </div>
                 <div class="gallery-item">
-                    <div class="gallery-placeholder">
-                        <i class="fas fa-image"></i>
-                        <p>הפעלת בועות</p>
-                    </div>
+                    <img src="images/WhatsApp Image 2025-07-01 at 14.17.52.jpeg" alt="גלריה - תמונה 3" />
                 </div>
-                <div class="gallery-item">
-                    <div class="gallery-placeholder">
-                        <i class="fas fa-image"></i>
-                        <p>מסיבת פיראטים</p>
-                    </div>
-                </div>
+            </div>
+            <div class="gallery-more-btn-wrapper">
+                <a href="gallery.html" class="gallery-more-btn" target="_blank">עוד מהגלריה</a>
             </div>
         </div>
     </section>
@@ -143,7 +203,7 @@
     <!-- המלצות -->
     <section id="reviews" class="reviews">
         <div class="container">
-            <h2 class="section-title">המלצות</h2>
+            <h2 class="section-title">המלצות על על הגל עם סיגל</h2>
             <div class="reviews-grid">
                 <div class="review-card">
                     <div class="review-header">
@@ -188,7 +248,7 @@
     <!-- צור קשר -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">צור קשר</h2>
+            <h2 class="section-title">צור קשר עם על הגל עם סיגל</h2>
             <div class="contact-content">
                 <div class="contact-info">
                     <div class="contact-item">
@@ -198,6 +258,14 @@
                     <div class="contact-item">
                         <i class="fab fa-whatsapp"></i>
                         <a href="https://wa.me/972547668161" target="_blank">צור קשר בווטסאפ</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-facebook"></i>
+                        <a href="https://www.facebook.com/p/%D7%A2%D7%9C-%D7%94%D7%92%D7%9C-%D7%A2%D7%9D-%D7%A1%D7%99%D7%92%D7%9C-100064403093360/" target="_blank">פייסבוק</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <a href="https://www.instagram.com/sigal_mualem?igsh=MmlwMndzY3U1dG80" target="_blank">אינסטגרם</a>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
@@ -230,6 +298,10 @@
     <footer class="footer">
         <div class="container">
             <p>&copy; 2024 על הגל עם סיגל - הפעלות ימי הולדת. כל הזכויות שמורות.</p>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/p/%D7%A2%D7%9C-%D7%94%D7%92%D7%9C-%D7%A2%D7%9D-%D7%A1%D7%99%D7%92%D7%9C-100064403093360/" target="_blank" aria-label="פייסבוק"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/sigal_mualem?igsh=MmlwMndzY3U1dG80" target="_blank" aria-label="אינסטגרם"><i class="fab fa-instagram"></i></a>
+            </div>
         </div>
     </footer>
 

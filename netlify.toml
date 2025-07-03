@@ -1,0 +1,17 @@
+[[headers]]
+  for = "/sitemap1.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "max-age=0"
+
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "max-age=0"
+
+[[headers]]
+  for = "/sitemap-new.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "max-age=0"
