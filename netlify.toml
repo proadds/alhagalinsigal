@@ -1,11 +1,16 @@
+# netlify.toml
+
+[build]
+  publish = "."
+
 [[headers]]
-  for = "/sitemap1.xml"
+  for = "/sitemap.xml"
   [headers.values]
     Content-Type = "application/xml"
     Cache-Control = "max-age=0"
 
 [[headers]]
-  for = "/sitemap.xml"
+  for = "/sitemap1.xml"
   [headers.values]
     Content-Type = "application/xml"
     Cache-Control = "max-age=0"
