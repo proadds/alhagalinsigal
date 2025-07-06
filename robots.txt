@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sigal.netlify.app/sitemap-new.xml 
+Sitemap: https://sigal.netlify.app/sitemap-new.xml
+Sitemap: https://sigal.netlify.app/sitemap.xml
+Sitemap: https://sigal.netlify.app/sitemap1.xml 
